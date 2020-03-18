@@ -16,7 +16,7 @@ def display_board
   puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
   puts "-----------"
   puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
-end 
+end
 
 def initialize
   @board = Array.new(9, " ")
@@ -152,4 +152,4 @@ def play
    puts "Cat's Game!"
   end
  end
-end 
+end
