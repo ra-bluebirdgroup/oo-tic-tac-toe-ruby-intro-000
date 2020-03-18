@@ -28,7 +28,7 @@ end
 
 def move(index, first_player)
   @board[index] = first_player
-  return board
+  return @board
 end
 
 def position_taken?(index)
