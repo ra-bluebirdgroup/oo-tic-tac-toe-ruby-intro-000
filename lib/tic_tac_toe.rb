@@ -130,7 +130,7 @@ def turn
   puts "Please enter 1-9:"
   input = gets.chomp
   index = input_to_index(input)
-  if valid_move?(@board, index)
+  if valid_move?(index)
     player_token = current_player(@board)
     move(index, player_token)
     display_board
